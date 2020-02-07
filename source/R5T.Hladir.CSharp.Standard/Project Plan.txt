@@ -1,0 +1,4 @@
+R5T.Hladir.CSharp.Standard - The standard aggregation library for the C# implementation of the IVisualStudioProjectFileNameConventions service for the Hladir project.
+
+Goals
+
