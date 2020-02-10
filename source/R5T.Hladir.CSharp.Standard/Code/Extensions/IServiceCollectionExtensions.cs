@@ -27,7 +27,7 @@ namespace R5T.Hladir.CSharp.Standard
         /// </summary>
         public static ServiceAction<IVisualStudioProjectFileNameConventions> AddVisualStudioProjectFileNameConventionsAction(this IServiceCollection services)
         {
-            var serviceAction = new ServiceAction<IVisualStudioProjectFileNameConventions>(() = services.AddVisualStudioProjectFileNameConventions());
+            var serviceAction = new ServiceAction<IVisualStudioProjectFileNameConventions>(() => services.AddVisualStudioProjectFileNameConventions());
             return serviceAction;
         }
     }
